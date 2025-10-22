@@ -34,11 +34,8 @@ public class OpenApiConfig {
                                 .url("https://opensource.org/licenses/MIT")))
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:" + serverPort)
-                                .description("Development Server"),
-                        new Server()
-                                .url("https://api.company.com")
-                                .description("Production Server")
+                                .url("https://internal-risk-engine-service-git-rjtmahinay-dev.apps.rm1.0a51.p1.openshiftapps.com")
+                                .description("Demo Server")
                 ));
     }
 }
